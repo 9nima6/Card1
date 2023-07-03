@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Exo:700");
+@import url("https://fonts.googleapis.com/css?family=Abel");
+
+body {
+  background-color: #dfe6e9;
+  -webkit-transform: perspective(900px);
+  -webkit-transform-style: preserve-3d;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.card1 {
+  text-align: center;
+  width: 200px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background: linear-gradient(rgb(225, 150, 58), rgb(227, 144, 91));
+  transition: 0.6s;
+  transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+}
+.card1:hover {
+  transform: rotatex(0deg);
+  transform: rotatez(0deg);
+  transition: 0.6s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.card1 img {
+  transform: translateY(15px);
+  width: 150px;
+  height: 120px;
+}
+h3 {
+  font-size: 25px;
+  font-family: "Abel", sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 2px rgb(255, 255, 255);
+  transform: translatey(10px);
+}
+
+p {
+  font-family: "Abel", sans-serif;
+  color: white;
+  text-align: center;
+  width: 170px;
+  transform: translatex(12px);
+}
+
